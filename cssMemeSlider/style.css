@@ -1,0 +1,86 @@
+/* Define your color variables */
+:root {
+    --greyscale-black-100: #18181B;
+    --greyscale-black-80: #252532;
+    --main-colors-linear: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+}
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply dark color scheme */
+body {
+    background-color: var(--greyscale-black-100);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for header */
+.header {
+    background: var(--greyscale-black-80);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+/* Styling for main content */
+.main {
+    padding: 40px;
+}
+.slider__wrapper {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    box-shadow: 0px -2px 15px rgba(223, 224, 226, 0.1);
+    text-align: center;
+    max-width: 800px;
+    height: auto; /* Настройте нужную высоту */
+    overflow: hidden;  
+}
+
+.slider__cards{
+    width: 500%;
+    height: 100%;
+}
+
+.slider__cards .slider__card {
+    width: 20%;
+}
+
+.slider__cards .slider__card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+/* Styling for footer */
+.footer {
+    background: var(--greyscale-black-80);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    font-size: 14px;
+}
