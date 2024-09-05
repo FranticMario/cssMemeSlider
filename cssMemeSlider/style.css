@@ -22,6 +22,8 @@ body {
 
 
 .header { 
+    position: absolute;
+    top: 0;
     width: 100%;
     background: var(--greyscale-black-80);
     padding: 20px;
@@ -47,7 +49,7 @@ body {
 }
 
 .meme-wrapper {
-   
+   padding: 30px;
 }
 
 .slider__wrapper {
