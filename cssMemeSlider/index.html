@@ -10,64 +10,52 @@
 
     <header class="header">
         <div class="wrapper">
-            <h1>CSS Meme Slider </h1>
+            <h1 class="header__titel">CSS Meme Slider </h1>
            
         </div>
     </header>
 
 
     <main class="main">
-        <div class="wrapper slider__wrapper">      
-            <div class="slider">
-                <div class="slider__nav">
-                    <label for="s1" calss="slider__nav-card"></label>
-                    <label for="s2" calss="slider__nav-card"></label>
-                    <label for="s3" calss="slider__nav-card"></label>
-                    <label for="s4" calss="slider__nav-card"></label>
+        <div class="wrapper">
+            <div class="slider__wrapper meme-wrapper">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2" >
+                <input type="radio" name="r" id="r3" >
+                <input type="radio" name="r" id="r4" >
+
+           
+                <div class="slider middle">
+                    <div class="slides">
+                        <div class="slide"><img src="./img/gif/cat.gif" alt=""></div>
+                        <div class="slide"><img src="./img/gif/lion.gif" alt=""></div>
+                        <div class="slide"><img src="./img/gif/rick.gif" alt=""></div>
+                        <div class="slide"><img src="./img/gif/sigma.gif" alt=""></div>
+                    </div> 
                 </div>
-
-                <div class="slider__cards">
-
-                    <input type="radio" name="slide" id="s1">
-                    <input type="radio" name="slide" id="s2">
-                    <input type="radio" name="slide" id="s3">
-                    <input type="radio" name="slide" id="s4">
-
-                    <div class="slider__card">
-                        <img src="./img/gif/sigma.gif" alt="" class="meme__slider">
-                        <h3 class="slider__titel">
-                            Sigma
-                        </h3>
+                <div class="content">
+                    <div class="meme__titel titel">
+                        <div class="titel__wrapper">
+                            <div class="title__text">I'am Programmer</div>
+                            <div class="title__text">Three-point</div>
+                            <div class="title__text">Say hello, Morty!</div>
+                            <div class="title__text">Too sigma for you</div>
+                        </div>               
                     </div>
-                    <div class="slider__card">
-                        <img src="./img/gif/lion.gif" alt="" class="meme__slider">
-                        <h3 class="slider__titel">
-                            Checkdown
-                        </h3>
-                    </div>
-                    <div class="slider__card">
-                        <img src="./img/gif/rick.gif" alt="" class="meme__slider">
-                        <h3 class="slider__titel">
-                            Они здесь так здароваются
-                        </h3>
-                    </div>
-                    <div class="slider__card">
-                        <img src="./img/gif/cat.gif" alt="" class="meme__slider">
-                        <h3 class="slider__titel">
-                            I am programmer
-                        </h3>
+               
+                    <div class="navigation">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
                     </div>
                 </div>
+         
             </div>
         </div>
+
     </main>
 
 
-    <footer class="footer">
-        <div class="warapper">
-            <p>&copy; 2023 Dark Website. All rights reserved.</p>
-        </div>
-
-    </footer>
 </body>
 </html>
